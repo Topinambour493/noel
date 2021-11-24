@@ -42,6 +42,23 @@ body{
     background: blueviolet;
     align-self: center;
     display:flex;
+    justify-content: center;
+}
+
+.barre1{
+    height:20px;
+    width:80px;
+    background:red;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.barre2{
+    height:160px;
+    width:20px;
+    background:red;
 }
 
 .image{

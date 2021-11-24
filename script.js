@@ -16,7 +16,11 @@ function créeCadeau(n) {
         let cadeau = créeBalise(container,"div","cadeau");
         let boite = créeBalise(cadeau,"div","boite","a"+i.toString());
         let image = créeBalise(cadeau,"img","image");
-        ajoutAtribut(image,"src","https://robohash.org/"+i*Math.random()+".png?size=180x160&set=set3&bgset=bg2");
+        créeBalise(boite,"div","barre1");
+        créeBalise(boite,"div","barre2");
+        créeBalise(boite,"div","barre1");
+
+        ajoutAtribut(image,"src","https://robohash.org/"+i*Math.random()+".png?size=180x160&set=set4&bgset=bg2");
         ajoutAtribut(boite,"onmouseover","ouvreBoite(this.id)");
         ajoutAtribut(boite,"onmouseover","ouvreBoite(this.id)");
         ajoutAtribut(boite,"onmouseleave","fermeBoite(this.id)" );
