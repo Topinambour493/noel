@@ -40,4 +40,4 @@ function créeBalise(parent,name,classe="",id="") {
     return newBalise;
 }
 
-créeCadeau(10);
+créeCadeau(3);
